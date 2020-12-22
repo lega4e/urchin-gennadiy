@@ -1,0 +1,205 @@
+@font-face
+{
+	font-family: 'mandy';
+	src: url('resources/mandy.otf');
+}
+
+html
+{
+	background: url('resources/Россыпь иконок.jpg');
+	background-size: 40%;
+
+	font-family: 'mandy';
+	font-size: 14pt;
+	color: #16286D;
+}
+
+body
+{
+	position: relative;
+
+	background: #DFDFFF;
+	max-width: 800px;
+	min-height: 300px;
+
+	margin: auto;
+	margin-top: 100px;
+	margin-bottom: 300px;
+
+	border: 50px solid transparent;
+	border-radius: 30px;
+
+	text-align: justify;
+	hyphens: auto;
+}
+
+
+
+
+
+/* header */
+header
+{
+	border-bottom: 1px solid #16286D;
+	margin-bottom: 30px;
+}
+
+header *
+{
+	display: inline;
+	padding: 0;
+	margin: 0;
+}
+
+
+
+
+
+/* aside */
+aside
+{
+	/* display: block; */
+	position: absolute;
+
+	left: -340px;
+	width: 250px;
+
+	border: 15px solid transparent;
+	border-radius: 20px;
+
+	background: #DFDFFF;
+}
+
+aside ul li
+{
+	/* list-style-type: none; */
+}
+
+aside nav a { color: #110C34; }
+aside nav a:hover { color: #3A31A1; }
+
+aside nav
+{
+	padding-top: 10px;
+	padding-left: 10px;
+	line-height: 1.4em;
+}
+
+
+
+
+
+/* footer */
+footer
+{
+	display: block;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+
+	width: 100%;
+	height: 40px;
+
+	background: #212257ea;
+	text-align: center;
+	color: white;
+
+	padding: 10px;
+}
+
+footer > div
+{
+	width: 530px;
+	text-align: center;
+	margin: auto;
+}
+
+
+
+
+
+#lis
+{
+	height: 60px;
+	margin-right: 10px;
+}
+
+ul li { margin-top: 7px; }
+
+
+
+
+/* Таблица */
+table.styled
+{
+	margin-top: 20px;
+}
+
+table.styled td
+{
+	text-indent: 30px;
+}
+
+table.styled th
+{
+	text-align: center;
+}
+
+table.styled th, table.styled td
+{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+
+
+/* Ссылки */
+a
+{
+	color: #1B1CC9;
+}
+
+a:hover
+{
+	color: #4B4BF6;
+}
+
+
+
+
+
+/* hobby */
+#apple-image
+{
+	width: 30%;
+	float: right;
+	margin-left: 80px;
+	margin-bottom: 20px;
+	shape-outside: circle();
+}
+
+#cactus-image
+{
+	width: 30%;
+	float: left;
+	margin-right: 80px;
+	margin-bottom: 20px;
+	shape-outside: circle();
+}
+
+#fire-image
+{
+	width: 45%;
+	float: right;
+	margin-top: -20px;
+	margin-left: 30px;
+	margin-bottom: 20px;
+	shape-outside: circle();
+}
+
+
+
+
+
+/* END */
